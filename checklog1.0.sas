@@ -1,3 +1,5 @@
+/*---------author:wenqi_qin---------*/
+
 /*Log summary simulation data*/
 data summary;
 	length item value $200.;
@@ -71,7 +73,7 @@ proc template;
         column name error warning notes links;
         define links;
            header = 'Links';
-           compute as '<a href="#' || trim(name) ||'">�鿴</a> ';
+           compute as '<a href="#' || trim(name) ||'">²é¿´</a> ';
         end;
 end;
 run;
