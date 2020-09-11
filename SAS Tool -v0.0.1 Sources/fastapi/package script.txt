@@ -1,0 +1,1 @@
+nuitka --standalone --mingw64 --show-memory --show-progress --nofollow-imports --plugin-enable=numpy --output-dir=out --windows-icon=你的.ico 软件的图标 auxiliary_system_server.py

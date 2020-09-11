@@ -1,0 +1,142 @@
+2020-09-01 13:46:13.882 | DEBUG    | app:index:37 - Welcome to the sas auxiliary system, work flow initial
+2020-09-01 13:47:48.485 | DEBUG    | app:index:37 - Welcome to the sas auxiliary system, work flow initial
+2020-09-01 13:48:35.672 | DEBUG    | app:index:37 - Welcome to the sas auxiliary system, work flow initial
+2020-09-01 13:49:01.067 | DEBUG    | app:index:37 - Welcome to the sas auxiliary system, work flow initial
+2020-09-01 13:51:28.969 | DEBUG    | app:index:37 - Welcome to the sas auxiliary system, work flow initial
+2020-09-01 17:00:25.469 | DEBUG    | app:get_log_list:61 - get log list request, log path:[C:\Users\Lion\Desktop\log] pageSize: [1] pageNumber: [20]
+2020-09-01 17:00:25.515 | DEBUG    | app:get_log_list:64 - got 82 log files in total
+2020-09-01 17:00:29.457 | DEBUG    | app:get_log_analysis_result:90 - get log analysis request, at log path C:\Users\Lion\Desktop\log 
+2020-09-01 17:00:35.195 | DEBUG    | app:get_log_block:107 - get log error detail block  request, at log path C:\Users\Lion\Desktop\log\ADCM.log with error index 164
+2020-09-01 17:01:40.160 | DEBUG    | app:get_log_block:107 - get log error detail block  request, at log path C:\Users\Lion\Desktop\log\ADVS.log with error index 275
+2020-09-01 17:04:29.651 | DEBUG    | app:get_sas_dataset_list:74 - get sas dataset List request, params: D:\Projects\SAS\base vs D:\Projects\SAS\compare
+2020-09-01 17:04:29.662 | DEBUG    | app:get_sas_dataset_list:80 - request complete successfully, coexisted: 16 , onlyInBase: 2, onlyInCmp: 0
+2020-09-01 17:04:32.481 | DEBUG    | sas_data_utils:genearte_md5:232 - MD5加密前为 ：1598951072482
+2020-09-01 17:04:32.481 | DEBUG    | sas_data_utils:genearte_md5:233 - MD5加密后为 ：11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:04:32.482 | DEBUG    | app:dataset_compare_result:121 - 开始多线程处理对比SAS数据集...
+2020-09-01 17:04:32.501 | DEBUG    | app:dataset_compare_result:128 - this multithread rotuine has been called and cost  0.02s
+2020-09-01 17:04:34.028 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:04:34.262 | DEBUG    | AsyncWorker:afterdone:45 - done addv.sas7bdatcompare with addv.sas7bdat : 正常返回 
+2020-09-01 17:04:35.074 | DEBUG    | AsyncWorker:afterdone:45 - done adeg.sas7bdatcompare with adeg.sas7bdat : 正常返回 
+2020-09-01 17:04:35.553 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:04:36.397 | DEBUG    | AsyncWorker:afterdone:45 - done admh.sas7bdatcompare with admh.sas7bdat : 正常返回 
+2020-09-01 17:04:37.046 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:04:37.165 | DEBUG    | AsyncWorker:afterdone:45 - done adae.sas7bdatcompare with QC_adae.sas7bdat : 正常返回 
+2020-09-01 17:04:38.554 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:04:38.953 | DEBUG    | AsyncWorker:afterdone:45 - done adpp.sas7bdatcompare with adpp.sas7bdat : 正常返回 
+2020-09-01 17:04:39.495 | DEBUG    | AsyncWorker:afterdone:45 - done adpc.sas7bdatcompare with qc_adpc.sas7bdat : 正常返回 
+2020-09-01 17:04:40.085 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:04:41.555 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:04:43.040 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:04:44.328 | DEBUG    | AsyncWorker:afterdone:45 - done adsl.sas7bdatcompare with adsl.sas7bdat : 正常返回 
+2020-09-01 17:04:44.541 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:04:45.914 | DEBUG    | AsyncWorker:afterdone:45 - done adce.sas7bdatcompare with adce.sas7bdat : 正常返回 
+2020-09-01 17:04:46.067 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:04:46.901 | DEBUG    | AsyncWorker:afterdone:45 - done adeff.sas7bdatcompare with adeff.sas7bdat : 正常返回 
+2020-09-01 17:04:47.567 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:04:49.083 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:04:50.550 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:04:52.050 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:04:53.561 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:04:55.081 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:04:56.583 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:04:56.651 | DEBUG    | AsyncWorker:afterdone:45 - done adcm.sas7bdatcompare with adcm.sas7bdat : 正常返回 
+2020-09-01 17:04:58.083 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:04:58.831 | DEBUG    | AsyncWorker:afterdone:45 - done adpe.sas7bdatcompare with adpe.sas7bdat : 正常返回 
+2020-09-01 17:04:59.598 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:05:00.455 | DEBUG    | AsyncWorker:afterdone:45 - done advs.sas7bdatcompare with advs.sas7bdat : 正常返回 
+2020-09-01 17:05:01.108 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:05:02.326 | DEBUG    | AsyncWorker:afterdone:45 - done adexsum.sas7bdatcompare with adexsum.sas7bdat : 正常返回 
+2020-09-01 17:05:02.612 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:05:04.108 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:05:05.613 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:05:07.102 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:05:08.603 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:05:10.132 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:05:11.030 | DEBUG    | AsyncWorker:afterdone:45 - done adqs.sas7bdatcompare with adqs.sas7bdat : 正常返回 
+2020-09-01 17:05:11.616 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:05:13.132 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:05:13.576 | DEBUG    | AsyncWorker:afterdone:45 - done adex.sas7bdatcompare with adex.sas7bdat : 正常返回 
+2020-09-01 17:05:14.628 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:05:16.145 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:05:17.623 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:05:18.388 | DEBUG    | AsyncWorker:afterdone:45 - done adlb.sas7bdatcompare with adlb.sas7bdat : 正常返回 
+2020-09-01 17:05:19.119 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:05:20.703 | DEBUG    | app:check_status:135 - get Async Task by ID 11314281233dcce0a9a054a615cc0c92
+2020-09-01 17:05:24.524 | DEBUG    | app:get_single_detail:144 - require single dataset compare result D:\Projects\SAS\base\addv.sas7bdat vs D:\Projects\SAS\compare\addv.sas7bdat
+2020-09-01 17:05:24.785 | DEBUG    | app:get_single_detail:145 - ([{'Column': 'age', 'UnEQ': '45', 'Max_Diff': '26.0', 'Null_Diff': '0'}, {'Column': 'agegr1', 'UnEQ': '23', 'Max_Diff': '0', 'Null_Diff': '0'}, {'Column': 'agegr1n', 'UnEQ': '23', 'Max_Diff': '1.0', 'Null_Diff': '0'}, {'Column': 'dvcat', 'UnEQ': '31', 'Max_Diff': '0', 'Null_Diff': '0'}, {'Column': 'dvsev', 'UnEQ': '9', 'Max_Diff': '0', 'Null_Diff': '0'}, {'Column': 'dvterm', 'UnEQ': '55', 'Max_Diff': '0', 'Null_Diff': '0'}, {'Column': 'fasfl', 'UnEQ': '3', 'Max_Diff': '0', 'Null_Diff': '0'}, {'Column': 'pkafl', 'UnEQ': '10', 'Max_Diff': '0', 'Null_Diff': '0'}, {'Column': 'pkcfl', 'UnEQ': '10', 'Max_Diff': '0', 'Null_Diff': '0'}, {'Column': 'pprotfl', 'UnEQ': '3', 'Max_Diff': '0', 'Null_Diff': '0'}, {'Column': 'siteid', 'UnEQ': '44', 'Max_Diff': '7.0', 'Null_Diff': '0'}, {'Column': 'subjid', 'UnEQ': '48', 'Max_Diff': '6999.0', 'Null_Diff': '0'}, {'Column': 'trt01a', 'UnEQ': '3', 'Max_Diff': '0', 'Null_Diff': '0'}, {'Column': 'trt01an', 'UnEQ': '3', 'Max_Diff': '0.0', 'Null_Diff': '3'}, {'Column': 'trt01p', 'UnEQ': '3', 'Max_Diff': '0', 'Null_Diff': '0'}, {'Column': 'trt01pn', 'UnEQ': '3', 'Max_Diff': '0.0', 'Null_Diff': '3'}, {'Column': 'usubjid', 'UnEQ': '48', 'Max_Diff': '0', 'Null_Diff': '0'}], [{'index': '-1', 'col1': 'age_base', 'col2': 'age_cmp'}, {'index': '2', 'col1': '20.0', 'col2': '13.0'}, {'index': '13', 'col1': '23.0', 'col2': '20.0'}, {'index': '14', 'col1': '24.0', 'col2': '20.0'}, {'index': '15', 'col1': '24.0', 'col2': '20.0'}, {'index': '16', 'col1': '24.0', 'col2': '20.0'}, {'index': '-1', 'col1': 'agegr1_base', 'col2': 'agegr1_cmp'}, {'index': '2', 'col1': '>18 Years', 'col2': '12 - 18 Years'}, {'index': '19', 'col1': '12 - 18 Years', 'col2': '>18 Years'}, {'index': '20', 'col1': '12 - 18 Years', 'col2': '>18 Years'}, {'index': '21', 'col1': '12 - 18 Years', 'col2': '>18 Years'}, {'index': '22', 'col1': '12 - 18 Years', 'col2': '>18 Years'}, {'index': '-1', 'col1': 'agegr1n_base', 'col2': 'agegr1n_cmp'}, {'index': '2', 'col1': '2.0', 'col2': '1.0'}, {'index': '19', 'col1': '1.0', 'col2': '2.0'}, {'index': '20', 'col1': '1.0', 'col2': '2.0'}, {'index': '21', 'col1': '1.0', 'col2': '2.0'}, {'index': '22', 'col1': '1.0', 'col2': '2.0'}, {'index': '-1', 'col1': 'dvcat_base', 'col2': 'dvcat_cmp'}, {'index': '2', 'col1': 'IP Admin/Study Treat', 'col2': 'Procedures/Tests'}, {'index': '3', 'col1': 'IP Admin/Study Treat', 'col2': 'Disallowed Medications'}, {'index': '4', 'col1': 'Procedures/Tests', 'col2': 'IP Admin/Study Treat'}, {'index': '5', 'col1': 'Procedures/Tests', 'col2': 'IP Admin/Study Treat'}, {'index': '12', 'col1': 'Inc/Excl Criteria', 'col2': 'Procedures/Tests'}, {'index': '-1', 'col1': 'dvsev_base', 'col2': 'dvsev_cmp'}, {'index': '3', 'col1': 'Minor', 'col2': 'Major'}, {'index': '12', 'col1': 'Major', 'col2': 'Minor'}, {'index': '20', 'col1': 'Minor', 'col2': 'Major'}, {'index': '24', 'col1': 'Major', 'col2': 'Minor'}, {'index': '28', 'col1': 'Minor', 'col2': 'Major'}, {'index': '-1', 'col1': 'dvterm_base', 'col2': 'dvterm_cmp'}, {'index': '2', 'col1': 'IP equilibrium time of subject 801002 on V1 visit did not reach the room temperature equilibrium time of 20-30min required by protocol. The time removed from refrigerator for IP was 9:12 and start tim', 'col2': 'IVR assay was not performed at predefined time point of treatment period *Visit 1 [Predose: 30min; Postdose: 15 min (+/-2min)/ 1hr (+/-5min)/48hr (+/-2hr)] *Visit 4 and Visit 7 [Predose: 30min; Postdo'}, {'index': '3', 'col1': 'IP equilibrium time of subject 801002 on V2 visit did not reach the room temperature equilibrium time of 20-30min required by protocol. The time removed from refrigerator for IP was 09:18 and start ti', 'col2': 'According to protocol_V2.0 page 48, if subjects were receiving any preparations containing FVIII (including rFVIII, plasma FVIII, cryoprecipitate, whole blood) for treatment previously, subject need s'}, {'index': '4', 'col1': 'PD 73: Subject 801003 is collected blood sample on 09:51 for 15min post FVIII:C at V4 IVR visit (30May2019). The beginning time of first centrifugation is 10:30. According to the flowchat requirement,', 'col2': 'IP equilibrium time of subject 801002 on V1 visit did not reach the room temperature equilibrium time of 20-30min required by protocol. The time removed from refrigerator for IP was 9:12 and start tim'}, {'index': '5', 'col1': 'Subject 801003 is collected blood sample on 08:57 for FVIII:C on unscheduled visit(04Mar2019). The beginning time of first centrifugation is 09:31. According to the flowchat requirement, the blood sam', 'col2': 'IP equilibrium time of subject 801002 on V2 visit did not reach the room temperature equilibrium time of 20-30min required by protocol. The time removed from refrigerator for IP was 09:18 and start ti'}, {'index': '6', 'col1': 'The investigator not evaluate the 72-hr (time window +/- 6 hours) hemostatic effect after the treatment of every bleeding event ; 16 MAR 2019; 23:29; 65.183333333333', 'col2': 'PD 73: Subject 801003 is collected blood sample on 09:51 for 15min post FVIII:C at V4 IVR visit (30May2019). The beginning time of first centrifugation is 10:30. According to the flowchat requirement,'}, {'index': '-1', 'col1': 'fasfl_base', 'col2': 'fasfl_cmp'}, {'index': '39', 'col1': 'Y', 'col2': 'N'}, {'index': '40', 'col1': 'Y', 'col2': 'N'}, {'index': '41', 'col1': 'Y', 'col2': 'N'}, {'index': '-1', 'col1': 'pkafl_base', 'col2': 'pkafl_cmp'}, {'index': '17', 'col1': 'N', 'col2': 'Y'}, {'index': '18', 'col1': 'N', 'col2': 'Y'}, {'index': '19', 'col1': 'N', 'col2': 'Y'}, {'index': '20', 'col1': 'N', 'col2': 'Y'}, {'index': '32', 'col1': 'Y', 'col2': 'N'}, {'index': '-1', 'col1': 'pkcfl_base', 'col2': 'pkcfl_cmp'}, {'index': '17', 'col1': 'N', 'col2': 'Y'}, {'index': '18', 'col1': 'N', 'col2': 'Y'}, {'index': '19', 'col1': 'N', 'col2': 'Y'}, {'index': '20', 'col1': 'N', 'col2': 'Y'}, {'index': '32', 'col1': 'Y', 'col2': 'N'}, {'index': '-1', 'col1': 'pprotfl_base', 'col2': 'pprotfl_cmp'}, {'index': '39', 'col1': 'Y', 'col2': 'N'}, {'index': '40', 'col1': 'Y', 'col2': 'N'}, {'index': '41', 'col1': 'Y', 'col2': 'N'}, {'index': '-1', 'col1': 'siteid_base', 'col2': 'siteid_cmp'}, {'index': '13', 'col1': '03', 'col2': '01'}, {'index': '14', 'col1': '03', 'col2': '01'}, {'index': '15', 'col1': '03', 'col2': '01'}, {'index': '16', 'col1': '03', 'col2': '01'}, {'index': '17', 'col1': '03', 'col2': '01'}, {'index': '-1', 'col1': 'subjid_base', 'col2': 'subjid_cmp'}, {'index': '2', 'col1': '801002', 'col2': '801001'}, {'index': '4', 'col1': '801003', 'col2': '801002'}, {'index': '5', 'col1': '801003', 'col2': '801002'}, {'index': '12', 'col1': '801004', 'col2': '801003'}, {'index': '13', 'col1': '803002', 'col2': '801003'}, {'index': '-1', 'col1': 'trt01a_base', 'col2': 'trt01a_cmp'}, {'index': '39', 'col1': 'Prophylaxis', 'col2': 'Unassigned'}, {'index': '40', 'col1': 'Prophylaxis', 'col2': 'Unassigned'}, {'index': '41', 'col1': 'Prophylaxis', 'col2': 'Unassigned'}, {'index': '-1', 'col1': 'trt01an_base', 'col2': 'trt01an_cmp'}, {'index': '39', 'col1': '1.0', 'col2': 'nan'}, {'index': '40', 'col1': '1.0', 'col2': 'nan'}, {'index': '41', 'col1': '1.0', 'col2': 'nan'}, {'index': '-1', 'col1': 'trt01p_base', 'col2': 'trt01p_cmp'}, {'index': '39', 'col1': 'Prophylaxis', 'col2': 'Unassigned'}, {'index': '40', 'col1': 'Prophylaxis', 'col2': 'Unassigned'}, {'index': '41', 'col1': 'Prophylaxis', 'col2': 'Unassigned'}, {'index': '-1', 'col1': 'trt01pn_base', 'col2': 'trt01pn_cmp'}, {'index': '39', 'col1': '1.0', 'col2': 'nan'}, {'index': '40', 'col1': '1.0', 'col2': 'nan'}, {'index': '41', 'col1': '1.0', 'col2': 'nan'}, {'index': '-1', 'col1': 'usubjid_base', 'col2': 'usubjid_cmp'}, {'index': '2', 'col1': 'SCT800-A302/01/801002', 'col2': 'SCT800-A302/01/801001'}, {'index': '4', 'col1': 'SCT800-A302/01/801003', 'col2': 'SCT800-A302/01/801002'}, {'index': '5', 'col1': 'SCT800-A302/01/801003', 'col2': 'SCT800-A302/01/801002'}, {'index': '12', 'col1': 'SCT800-A302/01/801004', 'col2': 'SCT800-A302/01/801003'}, {'index': '13', 'col1': 'SCT800-A302/03/803002', 'col2': 'SCT800-A302/01/801003'}])
+2020-09-01 17:08:43.839 | DEBUG    | sas_data_utils:genearte_md5:232 - MD5加密前为 ：1598951323840
+2020-09-01 17:08:43.840 | DEBUG    | sas_data_utils:genearte_md5:233 - MD5加密后为 ：b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:08:43.840 | DEBUG    | app:dataset_compare_result:121 - 开始多线程处理对比SAS数据集...
+2020-09-01 17:08:43.900 | DEBUG    | app:dataset_compare_result:128 - this multithread rotuine has been called and cost  0.06s
+2020-09-01 17:08:45.304 | DEBUG    | AsyncWorker:afterdone:45 - done addv.sas7bdatcompare with addv.sas7bdat : 正常返回 
+2020-09-01 17:08:45.445 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:08:45.829 | DEBUG    | AsyncWorker:afterdone:45 - done adeg.sas7bdatcompare with adeg.sas7bdat : 正常返回 
+2020-09-01 17:08:46.990 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:08:47.476 | DEBUG    | AsyncWorker:afterdone:45 - done admh.sas7bdatcompare with admh.sas7bdat : 正常返回 
+2020-09-01 17:08:48.234 | DEBUG    | AsyncWorker:afterdone:45 - done adae.sas7bdatcompare with QC_adae.sas7bdat : 正常返回 
+2020-09-01 17:08:48.459 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:08:49.848 | DEBUG    | AsyncWorker:afterdone:45 - done adpc.sas7bdatcompare with qc_adpc.sas7bdat : 正常返回 
+2020-09-01 17:08:49.877 | DEBUG    | AsyncWorker:afterdone:45 - done adpp.sas7bdatcompare with adpp.sas7bdat : 正常返回 
+2020-09-01 17:08:49.975 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:08:51.471 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:08:52.959 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:08:53.203 | DEBUG    | AsyncWorker:afterdone:45 - done adsl.sas7bdatcompare with adsl.sas7bdat : 正常返回 
+2020-09-01 17:08:54.147 | DEBUG    | AsyncWorker:afterdone:45 - done adeff.sas7bdatcompare with adeff.sas7bdat : 正常返回 
+2020-09-01 17:08:54.463 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:08:55.493 | DEBUG    | AsyncWorker:afterdone:45 - done adce.sas7bdatcompare with adce.sas7bdat : 正常返回 
+2020-09-01 17:08:55.977 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:08:57.476 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:08:58.965 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:09:00.474 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:09:01.979 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:09:03.476 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:09:04.978 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:09:06.493 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:09:07.195 | DEBUG    | AsyncWorker:afterdone:45 - done adpe.sas7bdatcompare with adpe.sas7bdat : 正常返回 
+2020-09-01 17:09:07.729 | DEBUG    | AsyncWorker:afterdone:45 - done adcm.sas7bdatcompare with adcm.sas7bdat : 正常返回 
+2020-09-01 17:09:07.979 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:09:09.490 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:09:10.595 | DEBUG    | AsyncWorker:afterdone:45 - done advs.sas7bdatcompare with advs.sas7bdat : 正常返回 
+2020-09-01 17:09:10.988 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:09:11.374 | DEBUG    | AsyncWorker:afterdone:45 - done adexsum.sas7bdatcompare with adexsum.sas7bdat : 正常返回 
+2020-09-01 17:09:12.495 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:09:14.001 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:09:15.483 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:09:16.988 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:09:18.496 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:09:18.781 | DEBUG    | AsyncWorker:afterdone:45 - done adqs.sas7bdatcompare with adqs.sas7bdat : 正常返回 
+2020-09-01 17:09:19.999 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:09:20.923 | DEBUG    | AsyncWorker:afterdone:45 - done adex.sas7bdatcompare with adex.sas7bdat : 正常返回 
+2020-09-01 17:09:21.503 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:09:23.009 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:09:24.505 | DEBUG    | AsyncWorker:afterdone:45 - done adlb.sas7bdatcompare with adlb.sas7bdat : 正常返回 
+2020-09-01 17:09:24.506 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:09:26.047 | DEBUG    | app:check_status:135 - get Async Task by ID b81f819ab6dd2d45e488e875e3b58b47
+2020-09-01 17:19:07.413 | DEBUG    | app:get_log_list:61 - get log list request, log path:[C:\Users\Lion\Desktop\log] pageSize: [1] pageNumber: [20]
+2020-09-01 17:19:07.434 | DEBUG    | app:get_log_list:64 - got 82 log files in total
+2020-09-01 17:19:10.537 | DEBUG    | app:get_log_analysis_result:90 - get log analysis request, at log path C:\Users\Lion\Desktop\log 
+2020-09-01 17:19:20.517 | DEBUG    | app:get_log_block:107 - get log error detail block  request, at log path C:\Users\Lion\Desktop\log\&pgm..log with error index 221
+2020-09-01 17:24:21.993 | DEBUG    | app:get_log_list:61 - get log list request, log path:[C:\Users\Lion\Desktop\log] pageSize: [1] pageNumber: [20]
+2020-09-01 17:24:22.002 | DEBUG    | app:get_log_list:64 - got 82 log files in total
+2020-09-01 17:24:26.630 | DEBUG    | app:get_log_analysis_result:90 - get log analysis request, at log path C:\Users\Lion\Desktop\log 
+2020-09-01 17:24:59.658 | DEBUG    | app:get_sas_dataset_list:74 - get sas dataset List request, params: D:\Projects\SAS\base vs D:\Projects\SAS\compare
+2020-09-01 17:24:59.659 | DEBUG    | app:get_sas_dataset_list:80 - request complete successfully, coexisted: 16 , onlyInBase: 2, onlyInCmp: 0
+2020-09-01 17:25:03.195 | DEBUG    | sas_data_utils:genearte_md5:232 - MD5加密前为 ：1598952303196
+2020-09-01 17:25:03.195 | DEBUG    | sas_data_utils:genearte_md5:233 - MD5加密后为 ：a04065de2eb1e65c597972fb413fefc5
+2020-09-01 17:25:03.196 | DEBUG    | app:dataset_compare_result:121 - 开始多线程处理对比SAS数据集...
+2020-09-01 17:25:03.204 | DEBUG    | app:dataset_compare_result:128 - this multithread rotuine has been called and cost  0.01s
+2020-09-01 17:25:03.743 | DEBUG    | AsyncWorker:afterdone:45 - done adae.sas7bdatcompare with QC_adae.sas7bdat : 正常返回 
+2020-09-01 17:25:04.740 | DEBUG    | app:check_status:135 - get Async Task by ID a04065de2eb1e65c597972fb413fefc5
+2020-09-01 17:25:04.906 | DEBUG    | AsyncWorker:afterdone:45 - done adce.sas7bdatcompare with adce.sas7bdat : 正常返回 
+2020-09-01 17:25:05.657 | DEBUG    | AsyncWorker:afterdone:45 - done adcm.sas7bdatcompare with adcm.sas7bdat : 正常返回 
+2020-09-01 17:25:06.225 | DEBUG    | app:check_status:135 - get Async Task by ID a04065de2eb1e65c597972fb413fefc5
+2020-09-01 17:25:07.749 | DEBUG    | app:check_status:135 - get Async Task by ID a04065de2eb1e65c597972fb413fefc5
+2020-09-01 17:28:05.895 | DEBUG    | app:get_sas_dataset_list:74 - get sas dataset List request, params: D:\Projects\SAS\base vs D:\Projects\SAS\compare
+2020-09-01 17:28:05.896 | DEBUG    | app:get_sas_dataset_list:80 - request complete successfully, coexisted: 16 , onlyInBase: 2, onlyInCmp: 0
+2020-09-01 17:28:09.599 | DEBUG    | sas_data_utils:genearte_md5:232 - MD5加密前为 ：1598952489600
+2020-09-01 17:28:09.599 | DEBUG    | sas_data_utils:genearte_md5:233 - MD5加密后为 ：a2b4c157ec88721dd56f7721e48fa4e8
+2020-09-01 17:28:09.599 | DEBUG    | app:dataset_compare_result:121 - 开始多线程处理对比SAS数据集...
+2020-09-01 17:28:09.601 | DEBUG    | app:dataset_compare_result:128 - this multithread rotuine has been called and cost  0.00s
+2020-09-01 17:28:10.285 | DEBUG    | AsyncWorker:afterdone:45 - done adae.sas7bdatcompare with QC_adae.sas7bdat : 正常返回 
+2020-09-01 17:28:11.145 | DEBUG    | app:check_status:135 - get Async Task by ID a2b4c157ec88721dd56f7721e48fa4e8
+2020-09-01 17:28:12.673 | DEBUG    | app:check_status:135 - get Async Task by ID a2b4c157ec88721dd56f7721e48fa4e8

@@ -1,0 +1,25 @@
+const getters = {
+  sidebar: state => state.app.sidebar,
+  device: state => state.app.device,
+  token: state => state.user.token,
+  avatar: state => state.user.avatar,
+  name: state => state.user.name,
+  roles: state => state.user.roles,
+  resNum: state => state.logAna.resNum,
+  logresult: state => state.logAna.logresult,
+  logwithIssue: state => state.logAna.logwithIssue,
+  logSummary: state => state.logAna.logSummary,
+  issueDetials: state => state.logAna.issueDetials,
+  todolist: state => state.todolist.todolist,
+  cmptasknum: state => state.dataCompare.cmptasknum,
+  taskRunning: state => state.dataCompare.taskRunning,
+  taskDone: state => state.dataCompare.taskDone,
+  taskTicket: state => state.dataCompare.taskTicket,
+  cmptaskRes: state => state.dataCompare.cmptaskRes,
+  dataCMPSummary: state => state.dataCompare.dataCMPSummary,
+  cmpRES_1: state => state.dataCompare.cmpRES_1,
+  cmpDiff_Detail: state => state.dataCompare.cmpDiff_Detail,
+  query_cache: state => state.dataCompare.query_cache,
+  sepcific_diff: state => state.dataCompare.sepcific_diff
+}
+export default getters
